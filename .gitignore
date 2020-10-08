@@ -114,3 +114,11 @@ PaymentGatewayTests/AutomationTests/AutomationTests/obj/Debug/netcoreapp3.1/NUni
 PaymentGatewayTests/AutomationTests/AutomationTests/bin/Debug/netcoreapp3.1/AutomationTests.deps.json
 PaymentGatewayTests/AutomationTests/AutomationTests/bin/Debug/netcoreapp3.1/AutomationTests.runtimeconfig.dev.json
 PaymentGatewayTests/AutomationTests/AutomationTests/bin/Debug/netcoreapp3.1/AutomationTests.runtimeconfig.json
+PaymentGatewayTests/AutomationTests/AutomationTests/Features/PaymentGateway.feature.cs
+PaymentGatewayTests/AutomationTests/AutomationTests/bin/Debug/netcoreapp3.1/AutomationTests.dll
+PaymentGatewayTests/AutomationTests/AutomationTests/bin/Debug/netcoreapp3.1/AutomationTests.pdb
+PaymentGatewayTests/AutomationTests/AutomationTests/bin/Debug/netcoreapp3.1/nunit_random_seed.tmp
+PaymentGatewayTests/AutomationTests/AutomationTests/bin/Debug/netcoreapp3.1/RestSharp.dll
+PaymentGatewayTests/AutomationTests/AutomationTests/obj/Debug/netcoreapp3.1/AutomationTests.csproj.CoreCompileInputs.cache
+PaymentGatewayTests/AutomationTests/AutomationTests/obj/Debug/netcoreapp3.1/AutomationTests.dll
+PaymentGatewayTests/AutomationTests/AutomationTests/obj/Debug/netcoreapp3.1/AutomationTests.pdb
