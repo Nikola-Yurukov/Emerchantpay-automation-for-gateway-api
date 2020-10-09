@@ -6,7 +6,7 @@
 Scenario:01.Successful sale transaction
 	Given the merchant's credentials are correct
 	When a 'Sale' request is sent to the provider
-#	Then the response received from the provider has http status code '200'
+	Then the response received from the provider has http status code '200'
 #	And the response received from the provider contains the following data:
 
 Scenario:02.Successful void transaction
