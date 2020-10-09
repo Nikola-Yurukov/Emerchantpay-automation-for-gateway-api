@@ -1,0 +1,6 @@
+﻿'{
+    "payment_transaction": {
+      "reference_id": "$$PlaceHolder$$",
+      "transaction_type": "void"
+    }
+}'

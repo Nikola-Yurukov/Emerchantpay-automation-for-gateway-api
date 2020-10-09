@@ -17,7 +17,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Steps\" />
+    <None Update="Files\Sale.txt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Files\Void.txt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
