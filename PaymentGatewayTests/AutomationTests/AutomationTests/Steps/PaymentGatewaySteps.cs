@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using NUnit.Framework.Interfaces;
 using TechTalk.SpecFlow;
 
 namespace AutomationTests.Steps
@@ -36,5 +37,12 @@ namespace AutomationTests.Steps
         {
             ResponseIsAsserted(statusCode);
         }
+
+        [Then(@"the response received from the provider contains the following data:")]
+        public void TheResponseContainsTheFollowingData(Table table)
+        {
+            AssertResponseBody(table);
+        }
+
     }
 }
