@@ -7,7 +7,12 @@ Scenario:01.Successful sale transaction
 	Given the merchant's credentials are correct
 	When a 'Sale' request is sent to the provider
 	Then the response received from the provider has http status code '200'
-#	And the response received from the provider contains the following data:
+	And the response received from the provider contains the following data:
+		| Field            | Value                               |
+		| status           | approved                            |
+		| usage            | Coffeemaker                         |
+		| amount           | 500                                 |
+		| message          | Your transaction has been approved. |
 
 Scenario:02.Successful void transaction
 	Given the merchant's credentials are correct
@@ -15,6 +20,11 @@ Scenario:02.Successful void transaction
 	When a 'Void' request is sent to the provider
 	Then the response received from the provider has http status code '200'
 	And the response received from the provider contains the following data:
+		| Field   | Value                                         |
+		| status  | approved                                      |
+		| usage   | Coffeemaker                                   |
+		| amount  | 500                                           |
+		| message | Your transaction has been voided successfully |
 
 Scenario:03 Authorization Denied
 	Given the merchant's credentials are incorrect
@@ -26,7 +36,7 @@ Scenario:04.Unsuccessful void transaction due to payment already voided
 	Given the merchant's credentials are correct
 	And the original payment has already been voided
 	When a 'Void' request is sent to the provider
-	Then the response received from the provider has http status code '200'
+	Then the response received from the provider has http status code '422'
 	And the response received from the provider contains the following data:
 
 Scenario:05 Unsuccessful void transaction due to missing original payment
@@ -35,3 +45,5 @@ Scenario:05 Unsuccessful void transaction due to missing original payment
 	When a 'Void' request is sent to the provider
 	Then the response received from the provider has http status code '422'
 	And the response received from the provider contains the following data:
+		| Field        | Value                          |
+		| reference_id | Invalid reference transaction! |

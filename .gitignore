@@ -122,3 +122,5 @@ PaymentGatewayTests/AutomationTests/AutomationTests/bin/Debug/netcoreapp3.1/Rest
 PaymentGatewayTests/AutomationTests/AutomationTests/obj/Debug/netcoreapp3.1/AutomationTests.csproj.CoreCompileInputs.cache
 PaymentGatewayTests/AutomationTests/AutomationTests/obj/Debug/netcoreapp3.1/AutomationTests.dll
 PaymentGatewayTests/AutomationTests/AutomationTests/obj/Debug/netcoreapp3.1/AutomationTests.pdb
+PaymentGatewayTests/AutomationTests/.vs/AutomationTests/DesignTimeBuild/.dtbcache.v2
+PaymentGatewayTests/AutomationTests/.vs/AutomationTests/v16/TestStore/0/005.testlog
