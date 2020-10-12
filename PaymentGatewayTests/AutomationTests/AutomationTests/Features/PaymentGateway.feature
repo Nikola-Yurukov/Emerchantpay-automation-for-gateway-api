@@ -26,7 +26,7 @@ Scenario:02.Successful void transaction
 		| amount    | 500                                           |
 		| message   | Your transaction has been voided successfully |
 
-Scenario:03 Authorization Denied
+Scenario:03. Authorization Denied
 	Given the merchant's credentials are incorrect
 	When a 'Sale' request is sent to the provider
 	Then the response received from the provider has http status code '401'
@@ -37,7 +37,7 @@ Scenario:04.Unsuccessful void transaction due to payment already voided
 	When a 'Void' request is sent to the provider
 	Then the response received from the provider has http status code '422'
 
-Scenario:05 Unsuccessful void transaction due to missing original payment
+Scenario:05. Unsuccessful void transaction due to missing original payment
 	Given the merchant's credentials are correct
 	And the original payment is missing
 	When a 'Void' request is sent to the provider
