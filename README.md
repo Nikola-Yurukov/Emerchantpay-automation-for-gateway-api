@@ -23,15 +23,17 @@ Prerequisites
  
  Structure
  =========
- - One feature file containing the functional requirements
- - Two text files containing the body of the two requests supported by the payment API
+ - Feature folder which contains all the different features which contain all the scenarios associated with the different functional requirements.
+ - Files folder that can be used for reading request bodies, which are sent by the framework.
+  - Two text files containing the body of the two requests supported by the payment API
   - Sale request - Standard payment transaction
   - Void request - Transaction which intends to cancel out previous Sale payments by passing a reference_id(Initial sale transaction unique_id)
- - Base class - 
- - PaymentGatewaySteps - This file is an abstract layer of the base class implementation, which only calls the methods from Base.cs, and does some additional checks. Maps the steps in the feature file with Binding
- - Extension - Consists of two methods
-  - FirstTwoColumnsToDictionary - takes a table parameter(the table from the feature file) and returns the first two columns, so that the table can be properly cast to a dictionary.
-  - TrimSingleSurroundingCharacter - Takes two parameters
+ - Steps folder - Here can be added all the different steps files, which by definition should be strictly associated with the corresponding requirement to have more consistency.
+  - Base class - 
+  - PaymentGatewaySteps - This file is an abstract layer of the base class implementation, which only calls the methods from Base.cs, and does some additional checks. Maps the steps in the feature file with Binding
+  - Extension - Consists of two methods
+    - FirstTwoColumnsToDictionary - takes a table parameter(the table from the feature file) and returns the first two columns, so that the table can be properly cast to a dictionary.
+    - TrimSingleSurroundingCharacter - Takes two parameters
     - The string to trim
     - The character to be trimmed
   - Context - Used for passing objects through different methods, by storing different values and re-using them later on.
