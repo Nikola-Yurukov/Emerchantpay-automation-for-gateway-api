@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using RestSharp;
+﻿using RestSharp;
 
 namespace AutomationTests.Steps
 {
     public class Context
     {
-        public IRestResponse restResponse { get; set; }
+        public IRestResponse RestResponse { get; set; }
+
+        public string ActualSaleData {get; set;}
+
+        public string ActualVoidData {get; set;}
+
+        public string UniqueID { get; set; }
     }
 }

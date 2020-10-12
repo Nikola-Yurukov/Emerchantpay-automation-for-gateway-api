@@ -124,3 +124,6 @@ PaymentGatewayTests/AutomationTests/AutomationTests/obj/Debug/netcoreapp3.1/Auto
 PaymentGatewayTests/AutomationTests/AutomationTests/obj/Debug/netcoreapp3.1/AutomationTests.pdb
 PaymentGatewayTests/AutomationTests/.vs/AutomationTests/DesignTimeBuild/.dtbcache.v2
 PaymentGatewayTests/AutomationTests/.vs/AutomationTests/v16/TestStore/0/005.testlog
+PaymentGatewayTests/AutomationTests/.vs/AutomationTests/v16/TestStore/0/007.testlog
+PaymentGatewayTests/AutomationTests/AutomationTests/bin/Debug/netcoreapp3.1/Files/Sale.txt
+PaymentGatewayTests/AutomationTests/AutomationTests/bin/Debug/netcoreapp3.1/Files/Void.txt
