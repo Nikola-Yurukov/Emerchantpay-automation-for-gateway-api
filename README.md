@@ -23,14 +23,15 @@ Prerequisites
  
  Structure
  =========
- - Feature folder which contains all the different features which contain all the scenarios associated with the different functional requirements.
- - Files folder that can be used for reading request bodies, which are sent by the framework.
- - Steps folder - Here can be added all the different steps files, which by definition should be strictly associated with the corresponding requirement to have more consistency.
-  - Base class - This is the class which takes care of the API setup, loading the configuration files and other reusable methods.
-  - PaymentGatewaySteps - This file is an abstract layer of the base class implementation, which only calls the methods from Base.cs, and does some additional checks. Maps the steps in the feature file with Binding
-  - Extension - Consists of two methods
-    - FirstTwoColumnsToDictionary - takes a table parameter(the table from the feature file) and returns the first two columns, so that the table can be properly cast to a dictionary.
-    - TrimSingleSurroundingCharacter - Takes two parameters
+ - **Feature** folder which contains all the different features which contain all the scenarios associated with the different functional requirements.
+    - **PaymentGateway** - This feature describes 5 different testing scenarios for the payment gateway.
+ - **Files** folder that can be used for reading request bodies, which are sent by the framework.
+ - **Steps** folder - Here can be added all the different steps files, which by definition should be strictly associated with the corresponding requirement to have more consistency.
+  - **Base** class - This is the class which takes care of the API setup, loading the configuration files and other reusable methods.
+  - **PaymentGatewaySteps** - This file is an abstract layer of the base class implementation, which only calls the methods from Base.cs, and does some additional checks. Maps the steps in the feature file with Binding
+  - **Extension** - Consists of two methods
+    - **FirstTwoColumnsToDictionary** - takes a table parameter(the table from the feature file) and returns the first two columns, so that the table can be properly cast to a dictionary.
+    - **TrimSingleSurroundingCharacter** - Takes two parameters
     - The string to trim
     - The character to be trimmed
-  - Context - Used for passing objects through different methods, by storing different values and re-using them later on.
+  - **Context** - Used for passing objects through different methods, by storing different values and re-using them later on.
