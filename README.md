@@ -1,6 +1,6 @@
 Introduciton
 =============
-This is a short framework that helps you test payment APIs. It is easily expandable, thus it can easily be adapted to test any kind of api. This framework uses a BDD testing approach with Specflow.
+This is a short framework that helps you test payment APIs. It is easily expandable, thus it can easily be adapted to test any kind of api. This framework implements a BDD testing approach with Specflow.
 
 Prerequisites
 ==============
