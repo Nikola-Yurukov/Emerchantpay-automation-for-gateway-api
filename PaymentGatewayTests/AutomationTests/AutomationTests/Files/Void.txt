@@ -1,6 +1,6 @@
 ﻿'{
     "payment_transaction": {
-      "reference_id": "$$PlaceHolder$$",
+      "reference_id": "$$UniqueID$$",
       "transaction_type": "void"
     }
 }'

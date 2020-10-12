@@ -17,9 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Files\new.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Update="Files\Sale.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
