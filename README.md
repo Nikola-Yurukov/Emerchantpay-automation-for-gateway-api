@@ -23,7 +23,7 @@ Prerequisites
  
  Structure
  =========
- - **Feature** folder which contains all the different features which contain all the scenarios associated with the different functional requirements.
+ - **Features** folder which contains all the different features which contain all the scenarios associated with the different functional requirements.
  - **Files** folder that can be used for reading request bodies, which are sent by the framework.
  - **Steps** folder - Here can be added all the different steps files, which by definition should be strictly associated with the corresponding requirement to have more consistency.
   - **Base** class - This is the class which takes care of the API setup, loading the configuration files and other reusable methods.
