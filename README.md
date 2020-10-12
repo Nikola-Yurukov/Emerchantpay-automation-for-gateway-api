@@ -25,9 +25,6 @@ Prerequisites
  =========
  - Feature folder which contains all the different features which contain all the scenarios associated with the different functional requirements.
  - Files folder that can be used for reading request bodies, which are sent by the framework.
-  - Two text files containing the body of the two requests supported by the payment API
-  - Sale request - Standard payment transaction
-  - Void request - Transaction which intends to cancel out previous Sale payments by passing a reference_id(Initial sale transaction unique_id)
  - Steps folder - Here can be added all the different steps files, which by definition should be strictly associated with the corresponding requirement to have more consistency.
   - Base class - This is the class which takes care of the API setup, loading the configuration files and other reusable methods.
   - PaymentGatewaySteps - This file is an abstract layer of the base class implementation, which only calls the methods from Base.cs, and does some additional checks. Maps the steps in the feature file with Binding
