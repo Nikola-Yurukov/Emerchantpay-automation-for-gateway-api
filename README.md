@@ -13,7 +13,7 @@ Prerequisites
   - NUnit
   - NUnit3TestAdapter
   - Newtonsoft.Json
- - Follow the the tutorial on how to setup the following payment gateway project - https://github.com/eMerchantPay/codemonsters_api_full
+ - Follow the tutorial on how to setup the following payment gateway project - https://github.com/eMerchantPay/codemonsters_api_full
  
  Setup
  =====
